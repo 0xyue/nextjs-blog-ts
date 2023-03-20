@@ -4,7 +4,7 @@ import styles from './layout.module.css'
 import utilStyles from '../styles/utils.module.css'
 import Link from 'next/link'
 
-const name = '[Your Name]'
+const name = '0xyue.eth'
 export const siteTitle = 'Next.js Sample Website'
 
 export default function Layout({
@@ -37,7 +37,7 @@ export default function Layout({
             <Image
               priority
               src="/images/profile.jpg"
-              className={utilStyles.borderCircle}
+              className={utilStyles.hexagon}
               height={144}
               width={144}
               alt={name}
@@ -50,7 +50,7 @@ export default function Layout({
               <Image
                 priority
                 src="/images/profile.jpg"
-                className={utilStyles.borderCircle}
+                className={utilStyles.hexagon}
                 height={108}
                 width={108}
                 alt={name}
